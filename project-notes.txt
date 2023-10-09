@@ -1,0 +1,23 @@
+run a backend code
+test all api
+build frontend -> ajax call to api and render data accordingly
+
+->dummy->end point(frontend)
+
+api->postman
+
+Signup -> post -> http://localhost:3001/api/v1/users
+data-> {
+  "firstName": "Muskans",
+  "lastName" : "Shaikhs",
+  "password": "1111111",
+  "email": "azim.s@gmail.com",
+  "contactNumber" : "1231231235"
+}
+
+login -> http://localhost:3001/api/v1/auth
+data -> 
+{
+  "email": "azim.s@gmail.com",
+  "password": "1111111"
+}
